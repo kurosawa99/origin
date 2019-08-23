@@ -18,6 +18,7 @@ const htmlContent = `<!DOCTYPE html>
 <head>
   <meta charset="utf-8">
   <title>Deployment Demonstration</title>
+  <meta http-equiv="Refresh" content="1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     HTML{height:100%%;}
