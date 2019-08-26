@@ -28,7 +28,7 @@ items:
           deploymentconfig: recreate-example
       spec:
         containers:
-        - image: openshift/deployment-example:v1
+        - image: kurosawa99/deployment-example:v1
           name: deployment-example
           ports:
           - containerPort: 8080
@@ -48,7 +48,7 @@ items:
   metadata:
     name: recreate-example
   spec:
-    dockerImageRepository: openshift/deployment-example
+    dockerImageRepository: kurosawa99/deployment-example
 - apiVersion: v1
   kind: Route
   metadata:
