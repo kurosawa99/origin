@@ -6,7 +6,7 @@
 FROM scratch
 
 MAINTAINER Clayton Coleman <ccoleman@redhat.com>
-COPY bin/deployment /deployment
+# COPY bin/deployment /deployment
 
 EXPOSE 8080
 ENV COLOR="#006e9c"
