@@ -28,7 +28,7 @@ items:
           deploymentconfig: recreate-example
       spec:
         containers:
-        - image: kurosawa99/deployment-example:v1
+        - image: kurosawa99/frhocp/deployment-example:v1
           name: deployment-example
           ports:
           - containerPort: 8080
@@ -48,7 +48,7 @@ items:
   metadata:
     name: recreate-example
   spec:
-    dockerImageRepository: kurosawa99/deployment-example
+    dockerImageRepository: kurosawa99/frhocp/deployment-example
 - apiVersion: v1
   kind: Route
   metadata:
